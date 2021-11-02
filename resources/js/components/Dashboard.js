@@ -5,7 +5,7 @@ import ReactDOM from 'react-dom';
 function Dashboard() {
     return (
         <div className="container">
-          Dashboard  (EN CONSTRUCCION!!!!!!!! )
+          Dashboard  (ITERACION 2, MARTES 02-11-2021)
         </div>
     );
 }
