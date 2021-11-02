@@ -6315,7 +6315,7 @@ var Creaventa = /*#__PURE__*/function (_Component) {
             children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsxs)("div", {
               className: "col",
               children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsx)("label", {
-                children: " Direccion Despacho"
+                children: " Direcci\xF3n Despacho"
               }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsx)("input", {
                 type: "text",
                 name: "direccion",
@@ -6352,7 +6352,7 @@ var Creaventa = /*#__PURE__*/function (_Component) {
             }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsxs)("div", {
               className: "col",
               children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsx)("label", {
-                children: " Telefono Contacto "
+                children: " Tel\xE9fono Contacto "
               }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsx)("br", {}), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsx)("input", {
                 name: "telefono",
                 onChange: this.handleInput,
@@ -6494,7 +6494,8 @@ var Creaventa = /*#__PURE__*/function (_Component) {
                   value: this.state.obsdespacho,
                   className: "md-textarea form-control",
                   rows: "1",
-                  placeholder: "Ingrese observaciones del despacho."
+                  maxLength: "200",
+                  placeholder: "Ingrese observaciones del despacho. Maximo 200 caracteres."
                 })
               })
             })
