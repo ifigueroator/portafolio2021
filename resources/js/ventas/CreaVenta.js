@@ -206,7 +206,7 @@ class Creaventa extends Component {
 
                     <div className="row row-cols-auto">
                         <div className="col">
-                            <label> Direccion Despacho</label>
+                            <label> Dirección Despacho</label>
                             <input
                                 type="text"
                                 name="direccion"
@@ -242,7 +242,7 @@ class Creaventa extends Component {
                         </div>
 
                         <div className="col">
-                            <label> Telefono Contacto </label>
+                            <label> Teléfono Contacto </label>
                             <br></br>
                             <input
                                 name="telefono"
@@ -378,8 +378,8 @@ class Creaventa extends Component {
                                     onChange={this.handleInput}
                                     value={this.state.obsdespacho}
                                     className="md-textarea form-control"
-                                    rows="1"
-                                    placeholder="Ingrese observaciones del despacho."
+                                    rows="1" maxLength="200"
+                                    placeholder="Ingrese observaciones del despacho. Maximo 200 caracteres."
                                 ></textarea>
                             </div>
                         </div>
